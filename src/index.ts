@@ -35,4 +35,9 @@ export interface Brand{
     zone_id?:number
 }
 
+export interface SendSMS{
+    code?: string,
+    phone_number ?: string
+}
+
 
