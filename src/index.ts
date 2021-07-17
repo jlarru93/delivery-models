@@ -17,7 +17,8 @@ export interface ResponseOperation{
 }
 export interface Zone{
     id?:number,
-    name?:string
+    name?:string,
+    polygon?:string;
 }
 export interface Store{
     id?:number,
@@ -32,4 +33,15 @@ export interface Brand{
     id?:number,
     name?:string,
     zone_id?:number
+}
+export interface AdminZone{
+    id?:string;
+    name?:string;
+    dni?:string;
+}
+export interface dniRequest{
+    primerNombre?:string,
+    segundoNombre?:string
+    apellidoPaterno?:string,
+    apellidoMaterno?:string
 }
