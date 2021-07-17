@@ -2,6 +2,7 @@ export interface AdminStore{
     id?:number,
     dni?:string,
     name?:string,
+    phoneNumber?:string,
     zone_id?:number
 }
 export interface dniResponse{
@@ -45,3 +46,10 @@ export interface dniRequest{
     apellidoPaterno?:string,
     apellidoMaterno?:string
 }
+
+export interface SendSMS{
+    code?: string,
+    phone_number ?: string
+}
+
+
