@@ -56,3 +56,8 @@ export interface Position{
     lat:string,
     lng:string
 }
+export interface User{
+    phoneNumber:string,
+    name?:string,
+    email?:string
+}
