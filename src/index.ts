@@ -61,3 +61,9 @@ export interface User{
     name?:string,
     email?:string
 }
+export interface ReniecDto{
+    primerNombre?:string,
+    segundoNombre?:string,
+    apellidoPaterno?:string,
+    apellidoMaterno?:string
+}
