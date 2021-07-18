@@ -52,4 +52,7 @@ export interface SendSMS{
     phone_number ?: string
 }
 
-
+export interface Position{
+    lat:string,
+    lng:string
+}
