@@ -39,6 +39,7 @@ export interface AdminZone{
     id?:string;
     name?:string;
     dni?:string;
+    phoneNumber?:string;
 }
 export interface dniRequest{
     primerNombre?:string,
