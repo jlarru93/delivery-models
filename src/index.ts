@@ -20,7 +20,7 @@ export interface Zone{
     id?:number,
     name?:string,
     polygon?:string;
-    phoneNumber?:string;
+    
 }
 export interface Store{
     id?:number,
