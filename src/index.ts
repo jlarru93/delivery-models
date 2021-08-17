@@ -5,6 +5,12 @@ export interface AdminStore{
     phoneNumber?:string,
     zone_id?:number
 }
+
+export interface Product{
+    id?:number,
+    name?:string
+}
+
 export interface dniResponse{
     primerNombre?:string,
     segundoNombre?:string
