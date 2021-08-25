@@ -8,8 +8,34 @@ export interface AdminStore{
 
 export interface Product{
     id?:number,
-    name?:string
+    name?:string,
+    picture ?:string,
+    snap ?: string,
+    review ?: string,
+    status ?: string
 }
+
+export interface ProductRequest{
+    dataProduct ?: Product,
+    option      ?: Option[],
+    currency    ?: string,
+    store_id    ?: number
+}
+
+export interface Option{
+    id ?: number,
+    product_id ?: number,
+    name        ?: string,
+    control     ?: string,
+    subOption  ?: SubOption[]
+}
+export interface SubOption{
+    id ?: number,
+    name ?: string,
+    currency ?: string
+}
+
+
 
 export interface dniResponse{
     primerNombre?:string,
