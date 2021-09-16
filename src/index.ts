@@ -19,7 +19,7 @@ export interface ProductRequest{
     dataProduct ?: Product,
     option      ?: Option[],
     currency    ?: string,
-    stores      ?:  []
+    stores      ?: Store []
 }
 
 export interface Option{
