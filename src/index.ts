@@ -32,6 +32,7 @@ export interface Option{
 }
 export interface SubOption{
     id ?: number,
+    options_id ?: number,
     name ?: string,
     currency ?: string
     status      ?:string
