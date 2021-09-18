@@ -26,7 +26,7 @@ export interface Option{
     id ?: number,
     product_id ?: number,
     name        ?: string,
-    control     ?: string,
+    control     ?: any,
     subOption  ?: SubOption[],
     status      ?:string
 }
