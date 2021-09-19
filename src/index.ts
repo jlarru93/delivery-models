@@ -39,6 +39,7 @@ export interface SubOption{
 }
 export interface currencySubOption{
     id ?: number;
+    subOption_id ?:number;
     currency ?: string;
     status ?:string;
 }
