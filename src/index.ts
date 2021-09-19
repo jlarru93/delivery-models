@@ -7,12 +7,12 @@ export interface AdminStore{
 }
 
 export interface Product{
-    id?:number,
-    name?:string,
-    picture ?:string,
-    snap ?: string,
-    review ?: string,
-    status ?: string
+    id?:number;
+    name?:string;
+    picture ?:string;
+    snap ?: string;
+    review ?: string;
+    status ?: string;
 }
 
 export interface ProductRequest{
@@ -23,21 +23,25 @@ export interface ProductRequest{
 }
 
 export interface Option{
-    id ?: number,
-    product_id ?: number,
-    name        ?: string,
-    control     ?: any,
-    subOption  ?: SubOption[],
+    id ?: number;
+    product_id ?: number;
+    name        ?: string;
+    control     ?: any;
+    subOption  ?: SubOption[];
     status      ?:string
 }
 export interface SubOption{
-    id ?: number,
-    options_id ?: number,
-    name ?: string,
-    currency ?: string
+    id ?: number;
+    options_id ?: number;
+    name ?: string;
+    currency ?: currencySubOption[];
     status      ?:string
 }
-
+export interface currencySubOption{
+    id ?: number;
+    currency ?: string;
+    status ?:string;
+}
 
 
 export interface dniResponse{
