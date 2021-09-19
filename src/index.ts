@@ -70,6 +70,7 @@ export interface Store{
     location?:string,
     brand_id?:number,
     zone_id?:number
+    status ?: string;
 }
 export interface Brand{
     id?:number,
