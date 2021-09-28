@@ -6,6 +6,13 @@ export interface AdminStore{
     zone_id?:number
 }
 
+export interface Price{
+    id ?: number;
+    product_id ?:number;
+    currency ?: string;
+
+}
+
 export interface Product{
     id?:number;
     name?:string;
