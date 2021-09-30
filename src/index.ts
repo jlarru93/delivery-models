@@ -41,13 +41,13 @@ export interface SubOption{
     id ?: number;
     options_id ?: number;
     name ?: string;
-    currency ?: currencySubOption[];
+    price ?: PriceSubOption[];
     status      ?:string
 }
-export interface currencySubOption{
+export interface PriceSubOption{
     id ?: number;
     subOption_id ?:number;
-    currency ?: string;
+    value ?: string;
     status ?:string;
 }
 
