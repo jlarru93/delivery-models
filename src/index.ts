@@ -25,7 +25,7 @@ export interface Product{
 export interface ProductRequest{
     dataProduct ?: Product,
     option      ?: Option[],
-    currency    ?: string,
+    price       ?: string,
     stores      ?: Store []
 }
 
