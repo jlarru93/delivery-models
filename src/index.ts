@@ -9,7 +9,7 @@ export interface AdminStore{
 export interface Price{
     id ?: number;
     product_id ?:number;
-    currency ?: string;
+    value ?: string;
 
 }
 
