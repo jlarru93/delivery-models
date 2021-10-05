@@ -27,6 +27,8 @@ export interface ProductRequest{
     option      ?: Option[],
     price       ?: string,
     stores      ?: Store []
+    categories  ?: Category[]
+    tags        ?: Tag []
 }
 
 export interface Option{
@@ -49,6 +51,16 @@ export interface PriceSubOption{
     subOption_id ?:number;
     value ?: string;
     status ?:string;
+}
+
+export interface Category{
+    id ?: number;
+    value ?: string;
+}
+
+export interface Tag{
+    id ?: number;
+    value ?: string;
 }
 
 
