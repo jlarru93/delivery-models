@@ -60,7 +60,7 @@ export interface Category{
 
 export interface Tag{
     id ?: number;
-    id_tag ? :number;
+    tag_id ? :number;
     value ?: string;
 }
 
