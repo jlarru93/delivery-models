@@ -130,3 +130,14 @@ export interface ReniecDto{
     apellidoPaterno?:string,
     apellidoMaterno?:string
 }
+
+export interface OrderRequest{
+    id?: number,
+    date ?: string,
+    detail ?: JSON,
+    diler_id ?: number,
+    user_id ?: number,
+    total ?: string,
+    addressStreet_id ?: number,
+    store_id  ?: number
+}
