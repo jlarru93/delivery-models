@@ -134,7 +134,7 @@ export interface ReniecDto{
 export interface OrderRequest{
     id?: number,
     date ?: string,
-    detail ?: JSON,
+    detail ?: string,
     diler_id ?: number,
     user_id ?: number,
     total ?: string,
