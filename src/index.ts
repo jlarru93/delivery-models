@@ -141,3 +141,13 @@ export interface OrderRequest{
     addressStreet_id ?: number,
     store_id  ?: number
 }
+
+export interface dilerRequest{
+    id ?: number,
+    name ?: string,
+    dni ?: string,
+    picture ?: string,
+    fullLastName ?: string,
+    phone ?: string,
+    address ?: string
+}
