@@ -149,5 +149,6 @@ export interface dilerRequest{
     picture ?: string,
     fullLastName ?: string,
     phone ?: string,
-    address ?: string
+    address ?: string,
+    zone_id ?: number
 }
