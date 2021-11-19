@@ -152,3 +152,8 @@ export interface dilerRequest{
     address ?: string,
     zone_id ?: number
 }
+
+export interface DilerOrderRequest{
+    order_id ?:number,
+    diler_id ?:number
+}
