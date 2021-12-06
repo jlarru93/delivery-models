@@ -157,3 +157,10 @@ export interface DilerOrderRequest{
     order_id ?:number,
     diler_id ?:number
 }
+
+export interface reportRequest{
+    idUser : string,
+    fechaini :string,
+    fechafin : string,
+    type     : string
+}
