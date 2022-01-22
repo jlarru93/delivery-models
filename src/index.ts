@@ -163,5 +163,6 @@ export interface reportRequest{
     fechaini ?:string,
     fechafin ?: string,
     type     ?: string,
-    idReport ?: string
+    idReport ?: string,
+    info  ?: any
 }
